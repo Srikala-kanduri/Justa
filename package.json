@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "build": "cd justa && npm run build",
+    "dev": "cd justa && npm run dev"
+  },
   "dependencies": {
     "tailwindcss": "^4.1.18"
   }
