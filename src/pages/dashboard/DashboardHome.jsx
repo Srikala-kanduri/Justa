@@ -112,24 +112,6 @@ export default function DashboardHome() {
                 />
             </div>
 
-            {/* Primary CTA */}
-            <div className="bg-white rounded-xl shadow-sm border border-[#E5E7EB] p-8 flex flex-col md:flex-row justify-between items-center hover:shadow-md transition">
-                <div>
-                    <h2 className="text-2xl font-bold text-[#0F172A] mb-2">
-                        Create a New Estimation
-                    </h2>
-                    <p className="text-[#64748B]">
-                        Use AI-powered planning to get accurate food quantities.
-                    </p>
-                </div>
-                <a
-                    href="/dashboard/newestimation"
-                    className="mt-6 md:mt-0 bg-[#2FAE8F] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#25967D] transition shadow-sm"
-                >
-                    New Estimation →
-                </a>
-            </div>
-
             {/* Recent Activity */}
             <div className="bg-white rounded-xl shadow-sm border border-[#E5E7EB] p-6">
                 <h3 className="text-xl font-bold text-[#0F172A] mb-4">
@@ -179,13 +161,6 @@ export default function DashboardHome() {
                         })}
                     </div>
                 )}
-
-                <a
-                    href="/dashboard/history"
-                    className="inline-block mt-4 text-sm font-medium text-[#2FAE8F] hover:underline"
-                >
-                    View full history →
-                </a>
             </div>
 
             {/* Feedback Reminder */}
