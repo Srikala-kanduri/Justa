@@ -151,11 +151,11 @@ export default function JustaLandingPage() {
                             </p>
 
                             <div className="flex flex-col sm:flex-row gap-4">
-                                <button className="bg-orange-500 text-white px-8 py-3 rounded-md hover:bg-orange-600 transition font-medium w-full sm:w-auto">
+                                <button onClick={() => navigate('/login')} className="bg-orange-500 text-white px-8 py-3 rounded-md hover:bg-orange-600 transition font-medium w-full sm:w-auto">
                                     Start Planning
                                 </button>
 
-                                <button className="text-orange-500 flex items-center justify-center space-x-2 hover:text-orange-600 w-full sm:w-auto">
+                                <button onClick={() => document.getElementById('services').scrollIntoView({ behavior: 'smooth' })} className="text-orange-500 flex items-center justify-center space-x-2 hover:text-orange-600 w-full sm:w-auto">
                                     <span className="w-8 h-8 border-2 border-orange-500 rounded-full flex items-center justify-center">
                                         ▼
                                     </span>
